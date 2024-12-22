@@ -23,7 +23,7 @@ You have been asked by the CEO and CMO to provide visuals on the metrics that th
 
 ## Detailed insights
 ### Top and Bottom Countries by Sales Revenue Performance
-![Top and Bottom Performing Countries](Viz/Top and Bottom Countries.png)
+![Top and Bottom Performing Countries](Viz/Top_and_Bottom_Countries.png)
 - The top five markets are —Netherlands, EIRE, Germany, France, and Australia—collectively driving a significant portion of our sales revenue. However, there are stark contrasts. At the other end of the spectrum, we see countries such as Saudi Arabia, USA, and Bahrain, where sales revenue is considerably lower with only a few hundreds of dollars.
 - 
 ### Average Sales and Average Order Value of Countries
