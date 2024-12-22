@@ -8,16 +8,16 @@ You have been asked by the CEO and CMO to provide visuals on the metrics that th
 4. Recommendations
 
 ## Business Questions
-1. Which Countries have good Online Retail Buying Behaviour?
-2. Identify countries doing good sales excluding UK.
-3. How does purchase behaviour of the top three countries by sales revenue vary?
-4. How often customers comeback oof the purchase?
-5. What is the customer purchase latency by month of first purchase?
-6. Which Countries Contribute to 80% of Sales Revenue?
-7. What are the Top/Bottom 10 Products contributing to the Sales Revenue ? (Excluding UK)
-8. Understand the customer Spend by Segmenting them into 2 Cluster
-9. Understand the overall customer purchasing behaviour  in terms of RFM
-10. Identify Products that are Selling High but generating lesser Sales Revenue and Selling Less but generating Highier Sales Revenue ?
+1. Which countries exhibit strong online retail buying behavior?
+2. Which countries (excluding the UK) are performing well in online retail sales?
+3. How does the purchase behavior of the top three countries by sales revenue differ?
+4. How often do customers return after making a purchase?
+5. What is the customer purchase latency based on the month of their first purchase?
+6. Which countries contribute to 80% of the total sales revenue?
+7. What are the top and bottom 10 products contributing to sales revenue (excluding the UK)?
+8. How can customer spending be understood by segmenting them into two clusters?
+9. How can the overall customer purchasing behavior be analyzed using RFM (Recency, Frequency, Monetary)?
+10. Which products are selling well but generating lower sales revenue, and which are selling less but generating higher sales revenue?
 
 ## Executive Summary
 
