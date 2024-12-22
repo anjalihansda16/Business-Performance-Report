@@ -30,7 +30,7 @@ You have been asked by the CEO and CMO to provide visuals on the metrics that th
 ![Average Sales](Viz/Average_Sales_Revenue_of_Countries.png)
 ![AOV](Viz/AOV_of_Countries.png)
 ### Purchase Behaviour of Top 3 Countries by Sales Revenue
-![Top 3 Countries](Viz/Top_3_Countries.png)
+![Top_3_Countries](Viz/Top_3_Countries_Performance.png)
 1. Performance by Country:
 **EIRE:** 
 - Revenue peaks in July (~40K) and September (~35K), with noticeable troughs in March (~10K) and November (~10K).
@@ -52,7 +52,7 @@ You have been asked by the CEO and CMO to provide visuals on the metrics that th
 - Netherlands takes the lead for the Quantity Sold and competes head on with EIRE in Revenue. 
 
 ### Customer Purchase Frequency
-![Customer Purchase Frequency]()
+![Customer Purchase Frequency](Viz/Purchase_Frequency.png)
 ### Customer Purchase Latency 
 ![Customer Purchase Latency](Viz/Purchase_Latency.png)
 ### Sales Revnue Pareto of Countries
