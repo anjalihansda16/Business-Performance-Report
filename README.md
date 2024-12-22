@@ -20,7 +20,6 @@ You have been asked by the CEO and CMO to provide visuals on the metrics that th
 10. Identify Products that are Selling High but generating lesser Sales Revenue and Selling Less but generating Highier Sales Revenue ?
 
 ## Executive Summary
-[View the Sales Analysis Dashboard](https://public.tableau.com/app/profile/anjali.hansda/viz/RetailRevenueViz1/6)
-https://public.tableau.com/app/profile/anjali.hansda/viz/RetailRevenueViz1/6?publish=yes
+
 
 ## Detailed insights
