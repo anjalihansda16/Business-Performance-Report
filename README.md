@@ -27,8 +27,10 @@ You have been asked by the CEO and CMO to provide visuals on the metrics that th
 - The top five markets are —Netherlands, EIRE, Germany, France, and Australia—collectively driving a significant portion of our sales revenue. However, there are stark contrasts. At the other end of the spectrum, we see countries such as Saudi Arabia, USA, and Bahrain, where sales revenue is considerably lower with only a few hundreds of dollars.
 - 
 ### Average Sales and Average Order Value of Countries
+![Average Sales](Viz/Average_Sales_Revenue_of_Countries.png)
+![AOV](Viz/AOV_of_Countries.png)
 ### Purchase Behaviour of Top 3 Countries by Sales Revenue
-![Top 3 Countries](Viz/Top 3 Countries.png)
+![Top 3 Countries](Viz/Top_3_Countries.png)
 1. Performance by Country:
 **EIRE:** 
 - Revenue peaks in July (~40K) and September (~35K), with noticeable troughs in March (~10K) and November (~10K).
@@ -50,10 +52,19 @@ You have been asked by the CEO and CMO to provide visuals on the metrics that th
 - Netherlands takes the lead for the Quantity Sold and competes head on with EIRE in Revenue. 
 
 ### Customer Purchase Frequency
+![Customer Purchase Frequency]()
 ### Customer Purchase Latency 
+![Customer Purchase Latency](Viz/Purchase_Latency.png)
 ### Sales Revnue Pareto of Countries
+![Sales Revnue Pareto of Countries](Viz/Sales_Revenue_Pareto_for_Countries.png)
 ### Best and Worst Performing Products
-### Understanding Customer Base 
+![Best and Worst Performing Products](Viz/Top_and_Bottom_Products.png)
+### Understanding Customer Base
+![RFM Segments](Viz/RFM_Customer_Segments.png) 
+![RFM Segment Details](Viz/RFM_Segment_Details.png)
+![Purchase Behaviour](Viz/Purchase_Behaviour_of_RFM_Customer_Segments.png)
+![Sales over Time](Viz/Sales_over_Time_for_RFM_Customer_Segments.png)
+
 #### Best Customers:
 The most valuable customers who purchase frequently, have made recent purchases, and spend significantly more compared to others.
 - Highest revenue among all segments, with a significant spike in November and another high in September.
@@ -80,7 +91,11 @@ These customers have moderate purchasing activity, but they are at risk of becom
 - Flat and declining trends in other months while no purchase after October. 
 #### Big Spenders:
 Customers who spend a lot of money but may not purchase as frequently or recently as the best customers.
-
 - Consistent revenue generation throughout the year
 
 ### Product Performance by Revenue vs Purchase Volume 
+![Product Performance](Viz/Sales_Revenue_vs_Quantity_Purchased_of_Products.png)
+
+
+### List of top 10 Customers
+![Top 10](Viz/Top_10_Customers.png)
