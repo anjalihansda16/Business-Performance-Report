@@ -1,5 +1,5 @@
-# Task
-You have been asked by the CEO and CMO to provide visuals on the metrics that they wish to analyse for the online retail store. You will gather the requirements and provide them with the type of visual that would be best suited to the scenario. The senior management wants to understand how their business is performing and what areas are the key strengths of the company. They are also focused on identifying opportunities that would lead to growth and generate more revenue in the future.
+# Background
+As a Data Analyst at Tata Consulting Services (TCS), I worked on a project for a client, an online retail company's CEO and CMO. The client sought a detailed analysis of their business performance to identify key strengths and uncover opportunities for future growth and revenue generation. My responsibility was to gather their requirements, analyze the data, and design tailored visuals and insights to meet their strategic needs.
 
 ## Table of Contents
 - [Business Questions](#business-questions)
