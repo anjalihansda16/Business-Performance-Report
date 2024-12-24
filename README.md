@@ -1,5 +1,5 @@
 # Background
-As a Data Analyst at Tata Consulting Services (TCS), I worked on a project for a client, an online retail company's CEO and CMO. The client sought a detailed analysis of their business performance to identify key strengths and uncover opportunities for future growth and revenue generation. My responsibility was to gather their requirements, analyze the data, and design tailored visuals and insights to meet their strategic needs.
+As a Data Analyst at Tata Consulting Services (TCS), I worked on a project for a client, an online retail company's CEO and CMO. The client posed several critical questions aimed at understanding the business's performance, key strengths, and growth opportunities. My responsibility was to gather their requirements, analyze the data, and design tailored visuals and insights to meet their strategic needs.
 
 ## Table of Contents
 - [Business Questions](#business-questions)
