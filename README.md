@@ -2,27 +2,27 @@
 You have been asked by the CEO and CMO to provide visuals on the metrics that they wish to analyse for the online retail store. You will gather the requirements and provide them with the type of visual that would be best suited to the scenario. The senior management wants to understand how their business is performing and what areas are the key strengths of the company. They are also focused on identifying opportunities that would lead to growth and generate more revenue in the future.
 
 ## Table of Contents
-1. Business Questions
-2. Executive Summary
-3. Detailed insights
+1. [Business Questions](##business-questions)
+2. [Executive Summary](##executive-summary)
+3. [Detailed Insights](##detailed-insights)
 4. Recommendations
 
 ## Business Questions
-1. Identify the countries with the highest customer engagement and transaction volumes in our online retail platform.?
-2. Highlight the top-performing countries in terms of sales revenue outside our primary market, the UK.?
+1. Identify the countries with the highest customer engagement and transaction volumes in our online retail platform.
+2. Highlight the top-performing countries in terms of sales revenue outside our primary market, the UK.
 3. Analyze the differences in customer purchasing trends among our top three revenue-generating countries.
 4. Determine the key markets that account for the majority of our revenue to guide resource allocation.
 5. Identify our best and worst-performing products globally, to optimize inventory and focus on profitability.
-
 6. What are the distribution and trends of purchase frequency among our customers?
-7. Based on the purchase history, when is the optimal time to re-engage customers to encourage repeat purchases.
-8. What insights can we gain from customer purchase patterns to classify them into actionable segments for retention and growth.
-9. Which products are selling well but generating lower sales revenue, and which are selling less but generating higher sales revenue.
-10. Who are out top 10 customer with highest sales revenue.
+7. Based on the purchase history, when is the optimal time to re-engage customers to encourage repeat purchases?
+8. What insights can we gain from customer purchase patterns to classify them into actionable segments for retention and growth?
+9. Which products are selling well but generating lower sales revenue, and which are selling less but generating higher sales revenue?
+10. Who are our top 10 customer with highest sales revenue?
+    
 ## Executive Summary
 
 
-## Detailed insights
+## Detailed Insights
 ### Top and Bottom Countries by Sales Revenue Performance
 ![Top and Bottom Performing Countries](Viz/Top_and_Bottom_Countries.png)
 The top five markets are —Netherlands, EIRE, Germany, France, and Australia—collectively driving a significant portion of our sales revenue.
@@ -37,34 +37,43 @@ At the other end of the spectrum, we see countries such as Saudi Arabia, USA, an
 - The Czech Republic and Bahrain show similar patterns, with comparable revenues and quantities. Although, the quantity sold in Czech Republic is almost double to that of Bahrain. 
 - Saudi Arabia performs the lowest in both revenue and quantity, suggesting either poor market penetration and low-priced items.
 
-### Average Sales and Average Order Value of Countries
+### Global Average Sales Performance
 ![Average Sales](Viz/Average_Sales_Revenue_of_Countries.png)
 
+### Average Order Value of Countries
 ![AOV](Viz/AOV_of_Countries.png)
 - The average AOV varies significantly across countries, with most values concentrated between $16 and $50, as indicated by the interquartile range. This range highlights a standard pattern of customer spending across the majority of countries.
 - Japan, Netherlands, Australia, and Sweden stand out with notably high AOVs, appearing as outliers. Among these, Japan has the highest AOV, showcasing its dominance in premium purchasing behavior. Additionally, Netherlands and Australia, both of which rank in the top 5 countries by sales revenue, align their high revenue with elevated AOVs. Sweden and Japan, while not in the top 5, still maintain a strong position, ranking 9th and 10th in sales revenue, respectively.
 - Germany and France, ranked 3rd and 4th in the top 5 countries by sales revenue, display a different trend. Their AOV falls on the lower end of the range, at $25, indicating a focus on high-volume transactions rather than premium, high-value purchases.
+  
 ### Purchase Behaviour of Top 3 Countries by Sales Revenue
 ![Top_3_Countries](Viz/Top_3_Countries_Performance.png)
-1. Performance by Country:
-**EIRE:** 
+#### 1. Performance by Country:
+##### **EIRE:**
 - Revenue peaks in July (~40K) and September (~35K), with noticeable troughs in March (~10K) and November (~10K).
 - Order Count follows a similar pattern, with peaks in September (~1,000 orders) and November (~950 orders), indicating high customer activity.
 - Quantity Sold also spikes in July (~27K) and September (~25K), suggesting these months are critical for maximizing sales.
-**Germany:**
+##### **Germany:**
 - Revenue peaks in July (~30K) and September (~30K) but does not dip as sharply during the off-season compared to EIRE.
 - Order Count remains consistently higher than EIRE, peaking in September (~1,050 orders).
 - Quantity Sold shows a steady upward trend until July (~23K), with a slight dip afterward, followed by another peak in September (~22K).
-**Netherlands:**
+##### **Netherlands:**
 - Performance is relatively flat for Order Count whereas Revenue and Quantity Sold metrics exceeds both the other nations, except for the lowest performance in April. This reflects that the AOV is higher for the Netherlands compared to the other two leading nations.
-2. Seasonality:
+#### 2. Seasonality:
 - Mid-Year Peak: All countries see a sharp rise in sales metrics around July, driven by higher Quantities Sold.
 - Late-Year Peak: Another spike occurs in September for EIRE, October for Netherlands and Germany, indicating potential seasonal campaigns or higher consumer demand during these months.
 - Year-End Drop: December shows a decline across all metrics, suggesting reduced market activity during this period.
-3. Country Rankings:
+#### 3. Country Rankings:
 - EIRE dominates Revenue, consistently outperforming Germany and the Netherlands in most months.
 - Germany leads in Order Count, indicating a high number of smaller transactions compared to EIRE.
 - Netherlands takes the lead for the Quantity Sold and competes head on with EIRE in Revenue. 
+
+### Sales Revenue Pareto of Countries
+![Sales Revnue Pareto of Countries](Viz/Sales_Revenue_Pareto_for_Countries.png)
+- The top 8 countries, Netherlands, EIRE, Germany, France, Australia, Spain, Switzerland, and Belgium account for 80% of total sales, while the remaining countries collectively contribute just 20%.
+
+### Best and Worst Performing Products
+![Best and Worst Performing Products](Viz/Top_and_Bottom_Products.png)
 
 ### Customer Purchase Frequency
 ![Customer Purchase Frequency](Viz/Purchase_Frequency.png)
@@ -88,14 +97,8 @@ Each bin represents the frequency of distinct customers based on their total pur
 - **March:** Has the lowest same-month repeat rate at 4.76%, and overall repeat activity is weaker, peaking at only 18.61% in the fourth month.
 - **June:** Faces a significant drop to 0.96% in the second month before recovering, indicating a delay in repeat purchase behavior.
 - **January:** Although it starts with a decent same-month repeat rate (7.37%), it does not sustain strong repeat percentages across months, tapering off to 12.11% by the sixth month.
-### Sales Revnue Pareto of Countries
-![Sales Revnue Pareto of Countries](Viz/Sales_Revenue_Pareto_for_Countries.png)
--The top 8 countries, Netherlands, EIRE, Germany, France, Australia, Spain, Switzerland, and Belgium account for 80% of total sales, while the remaining countries collectively contribute just 20%.
 
-### Best and Worst Performing Products
-![Best and Worst Performing Products](Viz/Top_and_Bottom_Products.png)
-
-### Understanding Customer Base
+### Understanding the Customer Base
 ![RFM Segments](Viz/RFM_Customer_Segments.png) 
 ![RFM Segment Details](Viz/RFM_Segment_Details.png)
 ![Sales over Time](Viz/Sales_over_Time_for_RFM_Customer_Segments.png)
@@ -108,6 +111,18 @@ The most valuable customers who purchase frequently, have made recent purchases,
 Customers who purchase regularly and are likely to maintain their loyalty to the business.
 - Moderate revenue contribution, with a clear peak in November and a slight dip in March and August.
 - Consistent throughout the year but shows no extreme variability like Best Customers.
+#### Big Spenders:
+Customers who spend a lot of money but may not purchase as frequently or recently as the best customers.
+- Consistent revenue generation throughout the year.
+#### Look Out Buyers:
+These customers have moderate purchasing activity, but they are at risk of becoming inactive due to declining recency or frequency.
+- Minimal contribution, with slight activity during October and November and exhibits irregular purchasing behavior.
+- Flat and declining trends in other months while no purchase after October.
+#### Lost Customer:
+Lost Cheap Customers: These are inactive customers who spent little and purchased infrequently when they were active.
+
+Lost Best Customers: These were once among the best customers but have stopped purchasing recently.
+- A distinct segment of customers has completely stopped purchasing, particularly during the last two months of the year (October, November, and December).
 #### Potential to Become Loyal Customers:
 These customers have shown recent interest in purchasing and could become loyal if nurtured.
 - Slow revenue growth from October, with a significant rise in November and a peak in December.
@@ -115,22 +130,10 @@ These customers have shown recent interest in purchasing and could become loyal 
 #### Occasional Buyers: 
 Customers who purchase sporadically, with average spending and relatively low purchase frequency.
 - Very minimal contribution, with no noticeable peaks or trends throughout the year.
-#### Lost Customer:
-Lost Cheap Customers: These are inactive customers who spent little and purchased infrequently when they were active.
-
-Lost Best Customers: These were once among the best customers but have stopped purchasing recently.
-- A distinct segment of customers has completely stopped purchasing, particularly during the last two months of the year (October, November, and December).
-#### Look Out Buyers:
-These customers have moderate purchasing activity, but they are at risk of becoming inactive due to declining recency or frequency.
-- Minimal contribution, with slight activity during October and November and exhibits irregular purchasing behavior.
-- Flat and declining trends in other months while no purchase after October. 
-#### Big Spenders:
-Customers who spend a lot of money but may not purchase as frequently or recently as the best customers.
-- Consistent revenue generation throughout the year
 
 ### Product Performance by Revenue vs Purchase Volume 
 ![Product Performance](Viz/Sales_Revenue_vs_Quantity_Purchased_of_Products.png)
--Products such as 22423, 47566 and, 85123A are high-revenue drivers despite lower purchase volumes, suggesting they cater to niche or premium segments.
+- Products such as 22423, 47566 and, 85123A are high-revenue drivers despite lower purchase volumes, suggesting they cater to niche or premium segments.
 - Product 23843 and 23166 stands out as a high-volume, high-revenue item, indicating strong mass-market appeal.
 - Product 84077 have high-volume albeit being a low-revenue product, i.e. a frequently purchased low-cost item. Its consistent demand could make it essential for driving overall transaction volumes, even if its individual contribution to revenue is limited.
 
