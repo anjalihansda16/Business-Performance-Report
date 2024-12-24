@@ -8,27 +8,42 @@ You have been asked by the CEO and CMO to provide visuals on the metrics that th
 4. Recommendations
 
 ## Business Questions
-1. Which countries exhibit strong online retail buying behavior?
-2. Which countries (excluding the UK) are performing well in online retail sales?
-3. How does the purchase behavior of the top three countries by sales revenue differ?
-4. How often do customers return after making a purchase?
-5. What is the customer purchase latency based on the month of their first purchase?
-6. Which countries contribute to 80% of the total sales revenue?
-7. What are the top and bottom 10 products contributing to sales revenue (excluding the UK)?
-8.  Help improve the understanding of the customer base by their purchase behaviour.
-9. Which products are selling well but generating lower sales revenue, and which are selling less but generating higher sales revenue?
+1. Identify the countries with the highest customer engagement and transaction volumes in our online retail platform.?
+2. Highlight the top-performing countries in terms of sales revenue outside our primary market, the UK.?
+3. Analyze the differences in customer purchasing trends among our top three revenue-generating countries.
+4. Determine the key markets that account for the majority of our revenue to guide resource allocation.
+5. Identify our best and worst-performing products globally, to optimize inventory and focus on profitability.
 
+6. What are the distribution and trends of purchase frequency among our customers?
+7. Based on the purchase history, when is the optimal time to re-engage customers to encourage repeat purchases.
+8. What insights can we gain from customer purchase patterns to classify them into actionable segments for retention and growth.
+9. Which products are selling well but generating lower sales revenue, and which are selling less but generating higher sales revenue.
+10. Who are out top 10 customer with highest sales revenue.
 ## Executive Summary
 
 
 ## Detailed insights
 ### Top and Bottom Countries by Sales Revenue Performance
 ![Top and Bottom Performing Countries](Viz/Top_and_Bottom_Countries.png)
-- The top five markets are —Netherlands, EIRE, Germany, France, and Australia—collectively driving a significant portion of our sales revenue. However, there are stark contrasts. At the other end of the spectrum, we see countries such as Saudi Arabia, USA, and Bahrain, where sales revenue is considerably lower with only a few hundreds of dollars.
-- 
+The top five markets are —Netherlands, EIRE, Germany, France, and Australia—collectively driving a significant portion of our sales revenue.
+- Netherlands leads in both revenue and quantity, indicating high sales performance overall.
+- EIRE generates the second-highest revenue, but the quantity sold is significantly lower compared to the Netherlands.
+- Germany and France follow afterward, with similar quantities sold but revenues of Germany is significantly higher than France, indicating purchase of fewer high-value items.
+- Australia has the lowest revenue and quantity among the top 5.
+
+At the other end of the spectrum, we see countries such as Saudi Arabia, USA, and Bahrain, where sales revenue is considerably lower with only a few hundreds of dollars.
+
+- Brazil followed by RSA (Republic of South Africa) have highest and second highest revenue respectively, among the bottom 5 but lower quantities sold given the sales revenue, stipulating either higher pricing or fewer high-value items.
+- The Czech Republic and Bahrain show similar patterns, with comparable revenues and quantities. Although, the quantity sold in Czech Republic is almost double to that of Bahrain. 
+- Saudi Arabia performs the lowest in both revenue and quantity, suggesting either poor market penetration and low-priced items.
+
 ### Average Sales and Average Order Value of Countries
 ![Average Sales](Viz/Average_Sales_Revenue_of_Countries.png)
+
 ![AOV](Viz/AOV_of_Countries.png)
+- The average AOV varies significantly across countries, with most values concentrated between $16 and $50, as indicated by the interquartile range. This range highlights a standard pattern of customer spending across the majority of countries.
+- Japan, Netherlands, Australia, and Sweden stand out with notably high AOVs, appearing as outliers. Among these, Japan has the highest AOV, showcasing its dominance in premium purchasing behavior. Additionally, Netherlands and Australia, both of which rank in the top 5 countries by sales revenue, align their high revenue with elevated AOVs. Sweden and Japan, while not in the top 5, still maintain a strong position, ranking 9th and 10th in sales revenue, respectively.
+- Germany and France, ranked 3rd and 4th in the top 5 countries by sales revenue, display a different trend. Their AOV falls on the lower end of the range, at $25, indicating a focus on high-volume transactions rather than premium, high-value purchases.
 ### Purchase Behaviour of Top 3 Countries by Sales Revenue
 ![Top_3_Countries](Viz/Top_3_Countries_Performance.png)
 1. Performance by Country:
@@ -53,16 +68,36 @@ You have been asked by the CEO and CMO to provide visuals on the metrics that th
 
 ### Customer Purchase Frequency
 ![Customer Purchase Frequency](Viz/Purchase_Frequency.png)
+
+Each bin represents the frequency of distinct customers based on their total purchases, grouped in intervals of 5.
+- The first bin has a huge count of 3,224 customers, indicating that the majority of customers made between 1 and 5 purchases.
+- The second bin (6–10 purchases) has 713 customers, which is a significant drop-off from the first bin.
+- Beyond the 10th bin (50+ purchases), the counts become negligible, with very few customers making extremely high numbers of purchases.
+
 ### Customer Purchase Latency 
 ![Customer Purchase Latency](Viz/Purchase_Latency.png)
+#### 1. Months with the Highest Same-Month Repeat Purchases
+- **April:** Stands out with 13.28% repeat purchases in the same month, the highest among all months.
+- **June:** Has a notable 9.09% repeat purchase in the same month, reflecting strong initial engagement.
+- **May:** Follows closely with 8.75% of customers repeating in the same month.
+#### 2. Months with Overall Good Repeat Percentage (High Frequency and High %)
+- **April:** Performs exceptionally well with high percentages across all months, peaking at 41.37% in the third month. It has consistent repeat purchases through months 1 (35.67%), 2 (36.24%), 4 (30.74%), and 5 (31.31%).
+- **February:** Shows a strong early repeat purchase rate with 24.81% in the first month and good consistency over subsequent months, with 20.93% by the fourth month.
+- **May:** Despite a slow start, the third month sees a strong recovery at 25.84%, maintaining consistency through months 4 to 6 (22.50% by month 6).
+#### 3. Months with Least Repeat Purchase of Customers
+- **March:** Has the lowest same-month repeat rate at 4.76%, and overall repeat activity is weaker, peaking at only 18.61% in the fourth month.
+- **June:** Faces a significant drop to 0.96% in the second month before recovering, indicating a delay in repeat purchase behavior.
+- **January:** Although it starts with a decent same-month repeat rate (7.37%), it does not sustain strong repeat percentages across months, tapering off to 12.11% by the sixth month.
 ### Sales Revnue Pareto of Countries
 ![Sales Revnue Pareto of Countries](Viz/Sales_Revenue_Pareto_for_Countries.png)
+-The top 8 countries, Netherlands, EIRE, Germany, France, Australia, Spain, Switzerland, and Belgium account for 80% of total sales, while the remaining countries collectively contribute just 20%.
+
 ### Best and Worst Performing Products
 ![Best and Worst Performing Products](Viz/Top_and_Bottom_Products.png)
+
 ### Understanding Customer Base
 ![RFM Segments](Viz/RFM_Customer_Segments.png) 
 ![RFM Segment Details](Viz/RFM_Segment_Details.png)
-![Purchase Behaviour](Viz/Purchase_Behaviour_of_RFM_Customer_Segments.png)
 ![Sales over Time](Viz/Sales_over_Time_for_RFM_Customer_Segments.png)
 
 #### Best Customers:
@@ -95,7 +130,9 @@ Customers who spend a lot of money but may not purchase as frequently or recentl
 
 ### Product Performance by Revenue vs Purchase Volume 
 ![Product Performance](Viz/Sales_Revenue_vs_Quantity_Purchased_of_Products.png)
-
+-Products such as 22423, 47566 and, 85123A are high-revenue drivers despite lower purchase volumes, suggesting they cater to niche or premium segments.
+- Product 23843 and 23166 stands out as a high-volume, high-revenue item, indicating strong mass-market appeal.
+- Product 84077 have high-volume albeit being a low-revenue product, i.e. a frequently purchased low-cost item. Its consistent demand could make it essential for driving overall transaction volumes, even if its individual contribution to revenue is limited.
 
 ### List of top 10 Customers
 ![Top 10](Viz/Top_10_Customers.png)
