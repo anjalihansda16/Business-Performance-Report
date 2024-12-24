@@ -2,10 +2,21 @@
 You have been asked by the CEO and CMO to provide visuals on the metrics that they wish to analyse for the online retail store. You will gather the requirements and provide them with the type of visual that would be best suited to the scenario. The senior management wants to understand how their business is performing and what areas are the key strengths of the company. They are also focused on identifying opportunities that would lead to growth and generate more revenue in the future.
 
 ## Table of Contents
-1. [Business Questions](#business-questions)
-2. [Executive Summary](#executive-summary)
-3. [Detailed Insights](#detailed-insights)
-4. Recommendations
+- [Business Questions](#business-questions)
+- [Detailed Insights](#detailed-insights)
+   - [Monthly Sales Revenue for the Year](#monthly-sales-revenue-for-the-year)
+   - [Top and Bottom Countries by Sales Revenue Performance](#top-and-bottom-countries-by-sales-revenue-performance)
+   - [Global Average Sales Performance](#global-average-sales-performance)
+   - [Average Order Value of Countries](#average-order-value-of-countries)
+   - [Purchase Behaviour of Top 3 Countries by Sales Revenue](#purchase-behaviour-of-top-3-countries-by-sales-revenue)
+   - [Sales Revenue Pareto of Countries](#sales-revenue-pareto-of-countries)
+   - [Best and Worst Performing Products](#best-and-worst-performing-products)
+   - [Customer Purchase Frequency](#customer-purchase-frequency)
+   - [Customer Purchase Latency](#customer-purchase-latency)
+   - [Understanding the Customer Base](#understanding-the-customer-base)
+   - [Product Performance by Revenue vs Purchase Volume](#product-performance-by-revenue-vs-purchase-volume)
+   - [List of Top 10 Customers](#list-of-top-10-customers)
+   
 
 ## Business Questions
 1. Identify the countries with the highest customer engagement and transaction volumes in our online retail platform.
@@ -18,25 +29,50 @@ You have been asked by the CEO and CMO to provide visuals on the metrics that th
 8. What insights can we gain from customer purchase patterns to classify them into actionable segments for retention and growth?
 9. Which products are selling well but generating lower sales revenue, and which are selling less but generating higher sales revenue?
 10. Who are our top 10 customer with highest sales revenue?
-    
-## Executive Summary
-
 
 ## Detailed Insights
+### Monthly Sales Revenue for the Year
+![Sales Revenue](Viz/Monthly_Sales_Revenue.png)
+#### 1. Revenue Peaks and Lows
+##### **Peak Revenue Month:** October (196,972)
+  - October marks the highest revenue, indicating strong customer engagement or possible seasonality factors such as promotions or holidays.
+##### **Lowest Revenue Month:** December (45,134)
+  - A steep drop occurs in December, which is unusual since December often sees high sales due to holiday shopping. This may warrant an investigation into supply chain disruptions, inventory issues, or reduced marketing efforts.
+#### 2. Monthly Revenue Fluctuations
+##### **Steady Decline in Early Q1:**
+  - Revenue decreases from January (128,583) to February (91,793) and then to April (52,274). This may indicate slower post-holiday shopping trends or weaker demand in the early months.
+##### **Mid-Year Recovery (May to August):**
+  - A consistent increase in revenue is seen from May (125,813) to August (148,874). This could correspond to back-to-school shopping or seasonal demand.
+##### **Sharp Growth in Q4:**
+  - Revenue peaks in October (196,972), likely driven by major events like Halloween sales or early holiday promotions. November also retains high sales at 179,017 before the sharp decline in December.
+#### 3. Seasonal and Trend Analysis
+##### **Seasonality Effects:**
+- Low in early spring (March-April).
+- Gradual growth during summer.
+- Peak in autumn (October).
+- Uncharacteristic drop in December.
+##### **Possible Campaign Impacts:**
+- Revenue spikes could be attributed to well-timed promotional campaigns, whereas the dips might point to gaps in marketing or inventory planning.
+#### 4. Anomalies
+The steep decline from November (179,017) to December (45,134) is a major anomaly. Given that December is typically a high-revenue month, this requires further analysis:
+1. Was there a lack of inventory or shipping constraints?
+2. Did customers shift to competitors during the holiday season?
+3. Were there external factors (e.g., economic slowdown, weather disruptions)?
+
 ### Top and Bottom Countries by Sales Revenue Performance
 ![Top and Bottom Performing Countries](Viz/Top_and_Bottom_Countries.png)
 The top five markets are —Netherlands, EIRE, Germany, France, and Australia—collectively driving a significant portion of our sales revenue.
 - Netherlands leads in both revenue and quantity, indicating high sales performance overall.
-- EIRE generates the second-highest revenue, but the quantity sold is significantly lower compared to the Netherlands.
-- Germany and France follow afterward, with similar quantities sold but revenues of Germany is significantly higher than France, indicating purchase of fewer high-value items.
+- EIRE generates the second-highest revenue, along with slight dip in the quantity sold. 
+- Germany and France follow afterward, with similar quantities sold. However, Germany outperforms France in revenue, as reflected by its higher median order value and the upper range of order revenue, indicating stronger sales performance compared to France.
 - Australia has the lowest revenue and quantity among the top 5.
 
 At the other end of the spectrum, we see countries such as Saudi Arabia, USA, and Bahrain, where sales revenue is considerably lower with only a few hundreds of dollars.
 
-- Brazil followed by RSA (Republic of South Africa) have highest and second highest revenue respectively, among the bottom 5 but lower quantities sold given the sales revenue, stipulating either higher pricing or fewer high-value items.
-- The Czech Republic and Bahrain show similar patterns, with comparable revenues and quantities. Although, the quantity sold in Czech Republic is almost double to that of Bahrain. 
-- Saudi Arabia performs the lowest in both revenue and quantity, suggesting either poor market penetration and low-priced items.
-
+- Brazil, followed by South Africa (RSA), leads in revenue among the bottom five markets, despite lower quantities sold. This is due to their higher average order value (AOV), which contributes to stronger sales revenue compared to the other countries in this group.
+- The Czech Republic and Bahrain exhibit similar revenue patterns, although the quantity sold in the Czech Republic is nearly double that of Bahrain. This difference is attributed to Bahrain’s higher average order value (AOV), which compensates for the lower sales volume.
+- Saudi Arabia performs the lowest in both revenue and quantity.
+  
 ### Global Average Sales Performance
 ![Average Sales](Viz/Average_Sales_Revenue_of_Countries.png)
 
