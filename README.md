@@ -1,7 +1,6 @@
-# Background
-As a Data Analyst at Tata Consulting Services (TCS), I worked on a project for a client, an online retail company's CEO and CMO. The client posed several critical questions aimed at understanding the business's performance, key strengths, and growth opportunities. My responsibility was to gather their requirements, analyze the data, and design tailored visuals and insights to meet their strategic needs.
 
 ## Table of Contents
+- [Background](#background)
 - [Business Questions](#business-questions)
 - [Detailed Insights](#detailed-insights)
    - [Monthly Sales Revenue for the Year](#monthly-sales-revenue-for-the-year)
@@ -17,6 +16,8 @@ As a Data Analyst at Tata Consulting Services (TCS), I worked on a project for a
    - [Product Performance by Revenue vs Purchase Volume](#product-performance-by-revenue-vs-purchase-volume)
    - [List of Top 10 Customers](#list-of-top-10-customers)
    
+## Background
+I worked as a consultant for an online retail store, to review the data provided by the client and find out insights valuable to the CEO and CMO. The business is performing well and the management wants to analyse what the major contributing factors are to the revenue so they can strategically plan for next year.
 
 ## Business Questions
 1. Identify the countries with the highest customer engagement and transaction volumes in our online retail platform.
