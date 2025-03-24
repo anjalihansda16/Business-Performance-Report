@@ -16,9 +16,10 @@
    - [Understanding the Customer Base](#understanding-the-customer-base)
    - [Product Performance by Revenue vs Purchase Volume](#product-performance-by-revenue-vs-purchase-volume)
    - [List of Top 10 Customers](#list-of-top-10-customers)
+- [Recommendations](#recommendations) 
    
 ## Background
-I was hired as a consultant for an online retail store, to review the data provided by the client and find out insights valuable to the CEO and CMO. The business is performing well and the management wants to analyse what the major contributing factors are to the revenue so they can strategically plan for next year's expansion.
+I was hired as a consultant for an online retail store, to review the data provided by the client and find out insights valuable to the CEO and CMO. The business is performing well and the management wants to analyse what the major contributing factors are to the revenue so they can strategically plan for next year's expansion. They would also like to view different metrics based on the demographic information that is available in the data.
 
 ## Business Questions
 1. Identify the countries with the highest customer engagement and transaction volumes in our online retail platform.
@@ -179,3 +180,5 @@ Customers who purchase sporadically, with average spending and relatively low pu
 
 ### List of top 10 Customers
 ![Top 10](Viz/Top_10_Customers.png)
+
+## Recommendations
