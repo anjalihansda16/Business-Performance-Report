@@ -2,6 +2,7 @@
 ## Table of Contents
 - [Background](#background)
 - [Business Questions](#business-questions)
+- [Executive Summary](#executive-summary)
 - [Detailed Insights](#detailed-insights)
    - [Monthly Sales Revenue for the Year](#monthly-sales-revenue-for-the-year)
    - [Top and Bottom Countries by Sales Revenue Performance](#top-and-bottom-countries-by-sales-revenue-performance)
@@ -17,7 +18,7 @@
    - [List of Top 10 Customers](#list-of-top-10-customers)
    
 ## Background
-I worked as a consultant for an online retail store, to review the data provided by the client and find out insights valuable to the CEO and CMO. The business is performing well and the management wants to analyse what the major contributing factors are to the revenue so they can strategically plan for next year.
+I was hired as a consultant for an online retail store, to review the data provided by the client and find out insights valuable to the CEO and CMO. The business is performing well and the management wants to analyse what the major contributing factors are to the revenue so they can strategically plan for next year's expansion.
 
 ## Business Questions
 1. Identify the countries with the highest customer engagement and transaction volumes in our online retail platform.
@@ -30,6 +31,8 @@ I worked as a consultant for an online retail store, to review the data provided
 8. What insights can we gain from customer purchase patterns to classify them into actionable segments for retention and growth?
 9. Which products are selling well but generating lower sales revenue, and which are selling less but generating higher sales revenue?
 10. Who are our top 10 customer with highest sales revenue?
+
+## Executive Summary
 
 ## Detailed Insights
 ### Monthly Sales Revenue for the Year
