@@ -110,7 +110,7 @@ At the other end of the spectrum, we see countries such as Saudi Arabia, USA, an
 - Netherlands takes the lead for the Quantity Sold and competes head on with EIRE in Revenue. 
 
 ### Sales Revenue Pareto of Countries
-![Sales Revnue Pareto of Countries](Viz/Sales_Revenue_Pareto_for_Countries.png)
+![Sales Revenue Pareto of Countries](Viz/Sales_Revenue_Pareto_for_Countries.png)
 - The top 8 countries, Netherlands, EIRE, Germany, France, Australia, Spain, Switzerland, and Belgium account for 80% of total sales, while the remaining countries collectively contribute just 20%.
 
 ### Best and Worst Performing Products
