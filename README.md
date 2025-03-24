@@ -133,11 +133,14 @@ Each bin represents the frequency of distinct customers based on their total pur
 #### 2. Months with Overall Good Repeat Percentage (High Frequency and High %)
 - **April:** Performs exceptionally well with high percentages across all months, peaking at 41.37% in the third month. It has consistent repeat purchases through months 1 (35.67%), 2 (36.24%), 4 (30.74%), and 5 (31.31%).
 - **February:** Shows a strong early repeat purchase rate with 24.81% in the first month and good consistency over subsequent months, with 20.93% by the fourth month.
-- **May:** Despite a slow start, the third month sees a strong recovery at 25.84%, maintaining consistency through months 4 to 6 (22.50% by month 6).
+
 #### 3. Months with Least Repeat Purchase of Customers
 - **March:** Has the lowest same-month repeat rate at 4.76%, and overall repeat activity is weaker, peaking at only 18.61% in the fourth month.
-- **June:** Faces a significant drop to 0.96% in the second month before recovering, indicating a delay in repeat purchase behavior.
 - **January:** Although it starts with a decent same-month repeat rate (7.37%), it does not sustain strong repeat percentages across months, tapering off to 12.11% by the sixth month.
+
+#### 4. Moderate Performance:
+- May and June have moderate performance for following few months but start picking up by 4th (18.13%) and 3rd (25.84%) month respectively. This could be due to the annual seasonality.
+
 
 ### Understanding the Customer Base
 ![RFM Segments](viz/RFM_Customer_Segments.png) 
