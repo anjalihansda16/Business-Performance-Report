@@ -19,7 +19,7 @@
 - [Recommendations](#recommendations) 
    
 ## Background
-I was hired as a consultant for an online retail store, to review the data provided by the client and find out insights valuable to the CEO and CMO. The business is performing well and the management wants to analyse what the major contributing factors are to the revenue so they can strategically plan for next year's expansion. They would also like to view different metrics based on the demographic information that is available in the data.
+An online retail store has hired you as a consultant to review the data provided by the client and find out insights valuable to the CEO and CMO. The business is performing well and the management wants to analyse what the major contributing factors are to the revenue so they can strategically plan for next year's expansion. They would also like to view different metrics based on the demographic information that is available in the data.
 
 ## Business Questions
 1. Identify the countries with the highest customer engagement and transaction volumes in our online retail platform.
@@ -37,7 +37,7 @@ I was hired as a consultant for an online retail store, to review the data provi
 
 ## Detailed Insights
 ### Monthly Sales Revenue for the Year
-![Sales Revenue](Viz/Monthly_Sales_Revenue.png)
+![Monthly Sales Revenue](https://github.com/anjalihansda16/Business-Performance-Report/blob/master/viz/Monthly_Sales_Revenue.png)
 #### 1. Revenue Peaks and Lows
 ##### **Peak Revenue Month:** October (196,972)
   - October marks the highest revenue, indicating strong customer engagement or possible seasonality factors such as promotions or holidays.
@@ -65,7 +65,7 @@ The steep decline from November (179,017) to December (45,134) is a major anomal
 3. Were there external factors (e.g., economic slowdown, weather disruptions)?
 
 ### Top and Bottom Countries by Sales Revenue Performance
-![Top and Bottom Performing Countries](Viz/Top_and_Bottom_Countries.png)
+![Top and Bottom Performing Countries](https://github.com/anjalihansda16/Business-Performance-Report/blob/master/viz/Top_and_Bottom_Countries.png)
 The top five markets are —Netherlands, EIRE, Germany, France, and Australia—collectively driving a significant portion of our sales revenue.
 - Netherlands leads in both revenue and quantity, indicating high sales performance overall.
 - EIRE generates the second-highest revenue, along with slight dip in the quantity sold. 
@@ -79,16 +79,16 @@ At the other end of the spectrum, we see countries such as Saudi Arabia, USA, an
 - Saudi Arabia performs the lowest in both revenue and quantity.
   
 ### Global Average Sales Performance
-![Average Sales](Viz/Average_Sales_Revenue_of_Countries.png)
+![Average Sales](https://github.com/anjalihansda16/Business-Performance-Report/blob/master/viz/Average_Sales_Revenue_of_Countries.png)
 
 ### Average Order Value of Countries
-![AOV](Viz/AOV_of_Countries.png)
+![AOV](https://github.com/anjalihansda16/Business-Performance-Report/blob/master/viz/AOV_of_Countries.png)
 - The average AOV varies significantly across countries, with most values concentrated between $16 and $50, as indicated by the interquartile range. This range highlights a standard pattern of customer spending across the majority of countries.
 - Japan, Netherlands, Australia, and Sweden stand out with notably high AOVs, appearing as outliers. Among these, Japan has the highest AOV, showcasing its dominance in premium purchasing behavior. Additionally, Netherlands and Australia, both of which rank in the top 5 countries by sales revenue, align their high revenue with elevated AOVs. Sweden and Japan, while not in the top 5, still maintain a strong position, ranking 9th and 10th in sales revenue, respectively.
 - Germany and France, ranked 3rd and 4th in the top 5 countries by sales revenue, display a different trend. Their AOV falls on the lower end of the range, at $25, indicating a focus on high-volume transactions rather than premium, high-value purchases.
   
 ### Purchase Behaviour of Top 3 Countries by Sales Revenue
-![Top_3_Countries](Viz/Top_3_Countries_Performance.png)
+![Top_3_Countries](https://github.com/anjalihansda16/Business-Performance-Report/blob/master/viz/Top_3_Countries_Performance.png)
 #### 1. Performance by Country:
 ##### **EIRE:**
 - Revenue peaks in July (~40K) and September (~35K), with noticeable troughs in March (~10K) and November (~10K).
@@ -110,14 +110,14 @@ At the other end of the spectrum, we see countries such as Saudi Arabia, USA, an
 - Netherlands takes the lead for the Quantity Sold and competes head on with EIRE in Revenue. 
 
 ### Sales Revenue Pareto of Countries
-![Sales Revenue Pareto of Countries](Viz/Sales_Revenue_Pareto_for_Countries.png)
+![Sales Revenue Pareto of Countries](https://github.com/anjalihansda16/Business-Performance-Report/blob/master/viz/Sales_Revenue_Pareto_for_Countries.png)
 - The top 8 countries, Netherlands, EIRE, Germany, France, Australia, Spain, Switzerland, and Belgium account for 80% of total sales, while the remaining countries collectively contribute just 20%.
 
 ### Best and Worst Performing Products
-![Best and Worst Performing Products](Viz/Top_and_Bottom_Products.png)
+![Best and Worst Performing Products](https://github.com/anjalihansda16/Business-Performance-Report/blob/master/viz/Top_and_Bottom_Products.png)
 
 ### Customer Purchase Frequency
-![Customer Purchase Frequency](Viz/Purchase_Frequency.png)
+![Customer Purchase Frequency](https://github.com/anjalihansda16/Business-Performance-Report/blob/master/viz/Purchase_Frequency.png)
 
 Each bin represents the frequency of distinct customers based on their total purchases, grouped in intervals of 5.
 - The first bin has a huge count of 3,224 customers, indicating that the majority of customers made between 1 and 5 purchases.
@@ -125,7 +125,7 @@ Each bin represents the frequency of distinct customers based on their total pur
 - Beyond the 10th bin (50+ purchases), the counts become negligible, with very few customers making extremely high numbers of purchases.
 
 ### Customer Purchase Latency 
-![Customer Purchase Latency](Viz/Purchase_Latency.png)
+![Customer Purchase Latency](https://github.com/anjalihansda16/Business-Performance-Report/blob/master/viz/Purchase_Latency.png)
 #### 1. Months with the Highest Same-Month Repeat Purchases
 - **April:** Stands out with 13.28% repeat purchases in the same month, the highest among all months.
 - **June:** Has a notable 9.09% repeat purchase in the same month, reflecting strong initial engagement.
@@ -140,9 +140,9 @@ Each bin represents the frequency of distinct customers based on their total pur
 - **January:** Although it starts with a decent same-month repeat rate (7.37%), it does not sustain strong repeat percentages across months, tapering off to 12.11% by the sixth month.
 
 ### Understanding the Customer Base
-![RFM Segments](Viz/RFM_Customer_Segments.png) 
-![RFM Segment Details](Viz/RFM_Segment_Details.png)
-![Sales over Time](Viz/Sales_over_Time_for_RFM_Customer_Segments.png)
+![RFM Segments](viz/RFM_Customer_Segments.png) 
+![RFM Segment Details](viz/RFM_Segment_Details.png)
+![Sales over Time](viz/Sales_over_Time_for_RFM_Customer_Segments.png)
 
 #### Best Customers:
 The most valuable customers who purchase frequently, have made recent purchases, and spend significantly more compared to others.
@@ -173,12 +173,13 @@ Customers who purchase sporadically, with average spending and relatively low pu
 - Very minimal contribution, with no noticeable peaks or trends throughout the year.
 
 ### Product Performance by Revenue vs Purchase Volume 
-![Product Performance](Viz/Sales_Revenue_vs_Quantity_Purchased_of_Products.png)
+![Product Performance](https://github.com/anjalihansda16/Business-Performance-Report/blob/master/viz/Sales_Revenue_vs_Quantity_Purchased_of_Products.png)
+###### For interactive report [visit Tableau account](https://public.tableau.com/app/profile/anjali.hansda/vizzes)
 - Products such as 22423, 47566 and, 85123A are high-revenue drivers despite lower purchase volumes, suggesting they cater to niche or premium segments.
 - Product 23843 and 23166 stands out as a high-volume, high-revenue item, indicating strong mass-market appeal.
 - Product 84077 have high-volume albeit being a low-revenue product, i.e. a frequently purchased low-cost item. Its consistent demand could make it essential for driving overall transaction volumes, even if its individual contribution to revenue is limited.
 
 ### List of top 10 Customers
-![Top 10](Viz/Top_10_Customers.png)
+![Top 10](https://github.com/anjalihansda16/Business-Performance-Report/blob/master/viz/Top_10_Customers.png)
 
 ## Recommendations
