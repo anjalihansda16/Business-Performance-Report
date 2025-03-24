@@ -177,7 +177,6 @@ Customers who purchase sporadically, with average spending and relatively low pu
 
 ### Product Performance by Revenue vs Purchase Volume 
 ![Product Performance](https://github.com/anjalihansda16/Business-Performance-Report/blob/master/viz/Sales_Revenue_vs_Quantity_Purchased_of_Products.png)
-###### For interactive report [visit Tableau account](https://public.tableau.com/app/profile/anjali.hansda/vizzes)
 - Products such as 22423, 47566 and, 85123A are high-revenue drivers despite lower purchase volumes, suggesting they cater to niche or premium segments.
 - Product 23843 and 23166 stands out as a high-volume, high-revenue item, indicating strong mass-market appeal.
 - Product 84077 have high-volume albeit being a low-revenue product, i.e. a frequently purchased low-cost item. Its consistent demand could make it essential for driving overall transaction volumes, even if its individual contribution to revenue is limited.
