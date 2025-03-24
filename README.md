@@ -34,7 +34,7 @@ An online retail store has hired you as a consultant to review the data provided
 10. Who are our top 10 customer with highest sales revenue?
 
 ## Executive Summary
-
+The total **annual gross revenue** stands at **$9.65M**, with **October recording the highest sales revenue** and an **uncharacteristic drop in December**. **80% of sales** are concentrated in **eight key countries**—Netherlands, EIRE, Germany, France, Australia, Spain, Switzerland, and Belgium. **75% of customers** make only **1-5 purchases per year**, and the **high number of lost cheap and lost loyal customers** highlights **low purchase frequency** and **serious retention concerns**.
 ## Detailed Insights
 ### Monthly Sales Revenue for the Year
 ![Monthly Sales Revenue](https://github.com/anjalihansda16/Business-Performance-Report/blob/master/viz/Monthly_Sales_Revenue.png)
