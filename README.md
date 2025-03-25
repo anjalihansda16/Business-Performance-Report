@@ -12,7 +12,7 @@
    - [Sales Revenue Pareto of Countries](#sales-revenue-pareto-of-countries)
    - [Best and Worst Performing Products](#best-and-worst-performing-products)
    - [Customer Purchase Frequency](#customer-purchase-frequency)
-   - [Customer Purchase Latency](#customer-purchase-latency)
+   - [Cohort Anallysis](#cohort-analysis)
    - [Understanding the Customer Base](#understanding-the-customer-base)
    - [Product Performance by Revenue vs Purchase Volume](#product-performance-by-revenue-vs-purchase-volume)
    - [List of Top 10 Customers](#list-of-top-10-customers)
@@ -124,8 +124,8 @@ Each bin represents the frequency of distinct customers based on their total pur
 - The second bin (6–10 purchases) has 713 customers, which is a significant drop-off from the first bin.
 - Beyond the 10th bin (50+ purchases), the counts become negligible, with very few customers making extremely high numbers of purchases.
 
-### Customer's Repeat Purchase Latency 
-![Customer's Repeat Purchase Latency](https://github.com/anjalihansda16/Business-Performance-Report/blob/master/viz/Purchase_Latency.png)
+### Cohort Analysis 
+![Cohort Analysis for Repeat Purchase](viz/Cohort_Analysis.png)
 #### 1. Months with the Highest Same-Month Repeat Purchases
 - **April:** Stands out with 13.28% repeat purchases in the same month, the highest among all months.
 - **June:** Has a notable 9.09% repeat purchase in the same month, reflecting strong initial engagement.
