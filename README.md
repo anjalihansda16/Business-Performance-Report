@@ -144,7 +144,9 @@ Each bin represents the frequency of distinct customers based on their total pur
 
 ### Understanding the Customer Base
 ![RFM Segments](viz/RFM_Customer_Segments.png) 
-35% of the customer base consists of lost cheap customers and lost best customers, indicating a potential revenue gap and a need to assess the reasons behind customer churn. Meanwhile, 36% of customers fall into high-value segments—best, loyal, and big spenders—who contribute significantly to revenue and profitability, making their retention a priority. Additionally, 10.6% of customers have the potential to become loyal, representing an opportunity to improve customer retention and customer life time value through targeted retention efforts. 
+
+
+- 35% of the customer base consists of lost cheap customers and lost best customers, indicating a potential revenue gap and a need to assess the reasons behind customer churn. Meanwhile, 36% of customers fall into high-value segments—best, loyal, and big spenders—who contribute significantly to revenue and profitability, making their retention a priority. Additionally, 10.6% of customers have the potential to become loyal, representing an opportunity to improve customer retention and customer life time value through targeted retention efforts. 
 
 ![RFM Segment Details](viz/RFM_Segment_Details.png)
 
