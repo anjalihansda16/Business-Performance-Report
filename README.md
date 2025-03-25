@@ -34,7 +34,7 @@ An online retail store has hired you as a consultant to review the data provided
 10. Who are our top 10 customer with highest sales revenue?
 
 ## Executive Summary
-The total **annual gross revenue** stands at **$9.65M**, with **October recording the highest sales revenue** and an **uncharacteristic drop in December**. **80% of sales** are concentrated in **eight key countries**—Netherlands, EIRE, Germany, France, Australia, Spain, Switzerland, and Belgium. **75% of customers** make only **1-5 purchases per year**, and the **high number of lost cheap and lost loyal customers** highlights **low purchase frequency** and **serious retention concerns**.
+The total **annual gross revenue** stands at **$8.94M** and 18,500 total transactions, with **October recording the highest sales revenue** and an **uncharacteristic drop in December**. **80% of sales** are concentrated in **eight key countries**—Netherlands, EIRE, Germany, France, Australia, Spain, Switzerland, and Belgium. **75% of customers** make only **1-5 purchases per year**, and the **high number of lost cheap and lost loyal customers** highlights **low purchase frequency** and **serious retention concerns**.
 ## Detailed Insights
 ### Monthly Sales Revenue for the Year
 ![Monthly Sales Revenue](https://github.com/anjalihansda16/Business-Performance-Report/blob/master/viz/Monthly_Sales_Revenue.png)
@@ -120,9 +120,9 @@ At the other end of the spectrum, we see countries such as Saudi Arabia, USA, an
 ![Customer Purchase Frequency](https://github.com/anjalihansda16/Business-Performance-Report/blob/master/viz/Purchase_Frequency.png)
 
 Each bin represents the frequency of distinct customers based on their total purchases, grouped in intervals of 5.
-- The first bin has a huge count of 3,224 customers, indicating that the majority of customers made between 1 and 5 purchases.
-- The second bin (6–10 purchases) has 713 customers, which is a significant drop-off from the first bin.
-- Beyond the 10th bin (50+ purchases), the counts become negligible, with very few customers making extremely high numbers of purchases.
+- The first bin has a huge count of 3,114 customers, i.e. 74% of the customers made purchases between 1 and 5.
+- The second bin (6–10 purchases) has 713 customers at 16.9%, which is a significant drop-off from the first bin.
+- Beyond the 10th bin (50+ purchases) with less than 0.1%, the counts become negligible, with very few customers making extremely high numbers of purchases.
 
 ### Cohort Analysis 
 ![Cohort Analysis for Repeat Purchase](viz/Cohort_Analysis.png)
@@ -144,7 +144,10 @@ Each bin represents the frequency of distinct customers based on their total pur
 
 ### Understanding the Customer Base
 ![RFM Segments](viz/RFM_Customer_Segments.png) 
+35% of the customer base consists of lost cheap customers and lost best customers, indicating a potential revenue gap and a need to assess the reasons behind customer churn. Meanwhile, 36% of customers fall into high-value segments—best, loyal, and big spenders—who contribute significantly to revenue and profitability, making their retention a priority. Additionally, 10.6% of customers have the potential to become loyal, representing an opportunity to improve customer retention and customer life time value through targeted retention efforts. 
+
 ![RFM Segment Details](viz/RFM_Segment_Details.png)
+
 ![Sales over Time](viz/Sales_over_Time_for_RFM_Customer_Segments.png)
 
 #### Best Customers:
