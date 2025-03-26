@@ -200,30 +200,51 @@ Customers who purchase sporadically, with average spending and relatively low pu
 
 ## Recommendations
 1. Improving Customer Retentiona and Repeat Purchases:
-   - Loyalty programs: Address customer disengagement after 1-5 purchases and reward high-frequency buyers by introducing a tiered reward system:
+   
+   - **Loyalty programs:** Address customer disengagement after 1-5 purchases and reward high-frequency buyers by introducing a tiered reward system:
      - Store points based on order value, redeemable as discounts for low-frequency buyers.
      - Pre-sale access for best and loyal customers.
      - Win-back strategies for inactive customers or those showing early disengagement signs.
-   - Personalized Re-targeting: Due to high variability in customer latency, implement automated, behavior-based re-engagement strategies:
+   - **Personalized Re-targeting:** Due to high variability in customer latency, implement automated, behavior-based re-engagement strategies:
      - Frequent buyers (low latency): Encourage repeat purchases through subscription models or store points.
      - Mid-range buyers (40-60 days): Use proactive reminders via SMS and email to maintain engagement.
      - Long-gap buyers (90+ days): Launch win-back campaigns featuring discounts, personalized recommendations, and urgency-based offers.
-   - Subscription or Auto-Replenishment Model: Encourage more frequent purchases by offering a subscription model for high-repeat, low-cost like Product 84077.
-      - Leverage Core Customer Insights: Analyse customer behaviour and purchase preference of repeat customers to enhance and customize the loyalty programs improve targeted marketing.
+   - **Subscription or Auto-Replenishment Model:** Encourage more frequent purchases by offering a subscription model for high-repeat, low-cost like Product 84077.
+   - **Leverage Core Customer Insights:** Analyse customer behaviour and purchase preference of repeat customers to enhance and customize the loyalty programs improve targeted marketing.
+---
 2. Sesonal and Promotional Strategy:
-   - Capitalize on Peak Months: Increase marketing efforts in October and July, when sales naturally peak.
-   - Target Cohorts in February, April, May, and June: Since these months have the highest repeat purchase rate (for 0-6 month), run targeted discounts to encourage repeat buyers.
-   - Preemptive Engagement before the Dip and Smoothing Demand during Dip: If the dip in the months of February, April and July are predictable i.e. due to the seasonality then giving exclusive early access to best and loyal customers, provinding bundle offers, subscription-based orders, urgengy-based promotions will pull the demand forward and smooth out the seasonality.
+   
+   - **Fix December Drop-off:** Investigate the December sales decline—possible causes include lack of marketing campaigns, inventory issues, or competition.
+       - Run aggressive holiday promotions in December.
+       - Ensure stock availability to prevent lost sales.
+   - **Capitalize on Peak Months:** Increase marketing efforts in October and July, when sales naturally peak.
+   - **Target Cohorts in February, April, May, and June:** Since these months have the highest repeat purchase rate (for 0-6 month), run targeted discounts to encourage repeat buyers.
+   - **Preemptive Engagement before the Dip and Smoothing Demand during Dip:** If the dip in the months of February, April and July are predictable i.e. due to the seasonality then giving exclusive early access to best and loyal customers, provinding bundle offers, subscription-based orders, urgengy-based promotions will pull the demand forward and smooth out the seasonality.
+
+---
 3. Product Strategy:
-   - Increase Marketing for High-Revenue, Low-Volume Products: Products 22423, 47566, and 85123A have strong revenue potential—position them as premium offerings.
-   - Bundle High-Volume, Low-Revenue Products: Product 84077 sells frequently but generates low revenue. Bundle it with complementary products to increase AOV.
-   - Inventory Optimization: Reduce stock for worst-performing products and shift focus to high-revenue and high-volume items.
+
+   - **Increase Marketing for High-Revenue, Low-Volume Products:** Products 22423, 47566, and 85123A have strong revenue potential—position them as premium offerings.
+   - **Bundle High-Volume, Low-Revenue Products:** Product 84077 sells frequently but generates low revenue. Bundle it with complementary products to increase AOV.
+   - **Inventory Optimization:** Reduce stock for worst-performing products and shift focus to high-revenue and high-volume items.
+---
 4. Country-Specific Stategies:
-   - Focusing on Top Revenue Generating Markets: Strengthening market presence in countries top 3 markets i.e. Netherlands, EIRE and Germany.
-   - Expand into High-AOV Markets: Japan, Australia and Sweden have the highest AOV—introduce premium product bundles in these regions while also ranking within 10 in average revenue of the countries.
-   - Localized Pricing and Promotions: Offer country-specific pricing strategies for high-volume but low-revenue countries like France and Germany and high-volume high-revenue counties like Netherlands and Australia.
+   
+   - **Focusing on Top Revenue Generating Markets:** Strengthening market presence in countries top 3 markets i.e. Netherlands, EIRE and Germany.
+   - **Expand into High-AOV Markets:** Japan, Australia and Sweden have the highest AOV—introduce premium product bundles in these regions while also ranking within 10 in average revenue of the countries.
+   - **Localized Pricing and Promotions:** Offer country-specific pricing strategies for high-volume but low-revenue countries like France and Germany and high-volume high-revenue counties like Netherlands and Australia.
+---
 5. Top Customer Relationship Management:
-   - Exclusive VIP Treatment for Top 10 Customers: Provide early access to new products, personalized discounts, and dedicated support for top customers who contribute the most revenue.
-   - Public Recognition & Shout-Outs: Feature VIP customers in social media spotlights, leaderboards, or exclusive newsletters to recognize their loyalty and incentivize other customers to stay engaged.
-   - B2B or Bulk Buying Incentives: B2B or Bulk Buying Incentives: If these customers purchase in bulk, offer special pricing or account management to deepen their relationship.
+   
+   - **Exclusive VIP Treatment for Top 10 Customers:** Provide early access to new products, personalized discounts, and dedicated support for top customers who contribute the most revenue.
+   - **Public Recognition & Shout-Outs:** Feature VIP customers in social media spotlights, leaderboards, or exclusive newsletters to recognize their loyalty and incentivize other customers to stay engaged.
+   - **B2B or Bulk Buying Incentives:** B2B or Bulk Buying Incentives: If these customers purchase in bulk, offer special pricing or account management to deepen their relationship.
+---
+6. Operational Improvements
+   
+   - **Investigate Cohort Drop-Offs:** Cohort analysis shows some months (e.g., March and January) with poor retention—analyze if it's due to product seasonality or lack of engagement.
+   - **Improve Shipping & Logistics:** If December’s decline was due to delivery delays, optimize logistics and communicate shipping timelines clearly.
  
+## Clarifying Questions, Assumptions, and Caveats
+
+
