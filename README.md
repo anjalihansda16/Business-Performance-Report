@@ -12,9 +12,9 @@
    - [Sales Revenue Pareto of Countries](#sales-revenue-pareto-of-countries)
    - [Best and Worst Performing Products](#best-and-worst-performing-products)
    - [Customer Purchase Frequency](#customer-purchase-frequency)
+   - [Customer Latency](#customer-latency)
    - [Cohort Anallysis](#cohort-analysis)
    - [Understanding the Customer Base](#understanding-the-customer-base)
-   - [Customer Latency](#customer-latency)
    - [Product Performance by Revenue vs Purchase Volume](#product-performance-by-revenue-vs-purchase-volume)
    - [List of Top 10 Customers](#list-of-top-10-customers)
 - [Recommendations](#recommendations) 
@@ -125,7 +125,10 @@ Each bin represents the frequency of distinct customers based on their total pur
 - The second bin (6–10 purchases) has 713 customers at 16.9%, which is a significant drop-off from the first bin.
 - Beyond the 10th bin (50+ purchases) with less than 0.1%, the counts become negligible, with very few customers making extremely high numbers of purchases.
 
-
+### Customer Latency 
+- The average cusotmer latency is 40 days (i.e. the gap between the purchases), and 66.4% of customers align with this behaviour.
+- If the purchase frquency and latency remain stable, this means customer returns roughly 9 times per year at most. However, since only 16% make 6-10 purchases annually, there's a gap where customers could be re-engage more effectively.
+  
 ### Cohort Analysis 
 ![Cohort Analysis for Repeat Purchase](viz/Cohort_Analysis.png)
 #### 1. Months with the Highest Same-Month Repeat Purchases
@@ -151,6 +154,9 @@ Each bin represents the frequency of distinct customers based on their total pur
 - 35% of the customer base consists of lost cheap customers and lost best customers, indicating a potential revenue gap and a need to assess the reasons behind customer churn. Meanwhile, 36% of customers fall into high-value segments—best, loyal, and big spenders—who contribute significantly to revenue, making their retention a priority. Additionally, 10.6% of customers have the potential to become loyal, representing an opportunity to improve customer retention and customer life time value through targeted retention efforts. 
 
 ![RFM Segment Details](viz/RFM_Segment_Details.png)
+
+
+-
 
 ![Sales over Time](viz/Sales_over_Time_for_RFM_Customer_Segments.png)
 
@@ -181,10 +187,7 @@ These customers have shown recent interest in purchasing and could become loyal 
 #### Occasional Buyers: 
 Customers who purchase sporadically, with average spending and relatively low purchase frequency.
 - Very minimal contribution, with no noticeable peaks or trends throughout the year.
-
-
-### Customer Latency 
-
+  
 ### Product Performance by Revenue vs Purchase Volume 
 ![Product Performance](https://github.com/anjalihansda16/Business-Performance-Report/blob/master/viz/Sales_Revenue_vs_Quantity_Purchased_of_Products.png)
 - Products such as 22423, 47566 and, 85123A are high-revenue drivers despite lower purchase volumes, suggesting they cater to niche or premium segments.
