@@ -35,7 +35,8 @@ An online retail store has hired you as a consultant to review the data provided
 10. Who are our top 10 customer with highest sales revenue?
 
 ## Executive Summary
-The total **annual gross revenue** stands at **$8.94M** and 18,500 total transactions, with **October recording the highest sales revenue** and an **uncharacteristic drop in December**. **80% of sales** are concentrated in **eight key countries**—Netherlands, EIRE, Germany, France, Australia, Spain, Switzerland, and Belgium. **75% of customers** make only **1-5 purchases per year**, and the **high number of lost cheap and lost loyal customers** highlights **low purchase frequency** and **serious retention concerns**.
+The total **annual gross revenue** stands at **$8.94M** and 18,500 total transactions, with **October recording the highest sales revenue** and an **uncharacteristic drop in December**. **80% of sales** are concentrated in **eight key countries**—Netherlands, EIRE, Germany, France, Australia, Spain, Switzerland, and Belgium. **75% of customers** make only **1-5 purchases per year**, and the **high number of lost cheap and lost loyal customers** highlights **low purchase frequency** and **serious retention concerns**. To boost retention and purchase frequency **tiered loyalty programs, personalized re-targeting, and subscriptions models can be implemented** in **April and February** with high repeat purchase rate. Revenue opportunities lie in **marketing high-revenue, low-volumne products, bundling low-revenue items with complementary items to increase AOV and optimizing inventory.** Expanding in **top revenue and high AOV markets** with localized pricing can drive growth. Customer loyalty can be fostered by offering VIP perks and public recognition.
+
 ## Detailed Insights
 ### Monthly Sales Revenue for the Year
 ![Monthly Sales Revenue](https://github.com/anjalihansda16/Business-Performance-Report/blob/master/viz/Monthly_Sales_Revenue.png)
@@ -245,6 +246,5 @@ Customers who purchase sporadically, with average spending and relatively low pu
    - **Investigate Cohort Drop-Offs:** Cohort analysis shows some months (e.g., March and January) with poor retention—analyze if it's due to product seasonality or lack of engagement.
    - **Improve Shipping & Logistics:** If December’s decline was due to delivery delays, optimize logistics and communicate shipping timelines clearly.
  
-## Clarifying Questions, Assumptions, and Caveats
 
 
