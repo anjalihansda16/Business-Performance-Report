@@ -126,8 +126,9 @@ Each bin represents the frequency of distinct customers based on their total pur
 - Beyond the 10th bin (50+ purchases) with less than 0.1%, the counts become negligible, with very few customers making extremely high numbers of purchases.
 
 ### Customer Latency 
-- The average cusotmer latency is 40 days (i.e. the gap between the purchases), and 66.4% of customers align with this behaviour.
-- If the purchase frquency and latency remain stable, this means customer returns roughly 9 times per year at most. However, since only 16% make 6-10 purchases annually, there's a gap where customers could be re-engage more effectively.
+- The average customer latency is 40 days (i.e. the gap between the purchases), and 66.4% of customers align with this behaviour which means customer returns roughly 9 times per year at most. However, since only 16% make 6-10 purchases annually, it suggests that most customers:
+   - Have higher variability in latency as the standard deviation in customer latency is of 52 days.
+   - Drop off before making frequent repeat purchases.
   
 ### Cohort Analysis 
 ![Cohort Analysis for Repeat Purchase](viz/Cohort_Analysis.png)
@@ -155,8 +156,6 @@ Each bin represents the frequency of distinct customers based on their total pur
 
 ![RFM Segment Details](viz/RFM_Segment_Details.png)
 
-
--
 
 ![Sales over Time](viz/Sales_over_Time_for_RFM_Customer_Segments.png)
 
